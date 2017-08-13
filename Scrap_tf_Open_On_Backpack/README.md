@@ -18,9 +18,10 @@ You just have to click on the new icon to open the item on a new tab.
 4. The script should now be installed and ready to use.
 
 ## Supported Browsers
-| ![Chrome ](https://www.w3schools.com/images/compatible_chrome.gif) | ![ Internet Explorer](https://www.w3schools.com/images/compatible_edge.gif)  | ![FireFox](https://www.w3schools.com/images/compatible_firefox.gif) | ![Safari](https://www.w3schools.com/images/compatible_safari.gif) | ![Opera](https://www.w3schools.com/images/compatible_opera.gif) |
-| ------------- | ------------- | ------------- | ------------- | ------------- |------------- |
-| 4+  | 9+  | 2+  | 3.1+  | 9+  |
+
+| ![Chrome ](https://www.w3schools.com/images/compatible_chrome.gif) | ![ Internet Explorer](https://www.w3schools.com/images/compatible_edge.gif) | ![FireFox](https://www.w3schools.com/images/compatible_firefox.gif) | ![Safari](https://www.w3schools.com/images/compatible_safari.gif) | ![Opera](https://www.w3schools.com/images/compatible_opera.gif) |
+|     :---:      |     :---:      |     :---:      |     :---:      |     :---:      |
+| 4+ | 9+ | 2+ | 3.1+ | 9+ |
 
 ## Changelog
 * Release 1.0.1 - August 13, 2017 - Added auto-updater.
