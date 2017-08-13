@@ -13,7 +13,7 @@ You just have to click on the new icon to open the item on a new tab.
 
 ## Instruction
 1. Ensure that you have a Script Manager installed.
-2. [Install](openOnBackpack.user.js?raw=true) from github.com.
+2. [Install](scraptfOpenOnBackpack.user.js?raw=true) from github.com.
 3. Confirm that you want to install the script.
 4. The script should now be installed and ready to use.
 
