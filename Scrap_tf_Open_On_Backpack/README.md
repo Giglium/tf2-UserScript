@@ -13,7 +13,7 @@ You just have to click on the new icon to open the item on a new tab.
 
 ## Instruction
 1. Ensure that you have a Script Manager installed.
-2. [Install](scraptfOpenOnBackpack.user.js?raw=true) from github.com.
+2. [Install](scraptfOpenOnBackpack.user.jsr?raw=true) from github.com.
 3. Confirm that you want to install the script.
 4. The script should now be installed and ready to use.
 
@@ -24,5 +24,6 @@ You just have to click on the new icon to open the item on a new tab.
 | 4+ | 9+ | 2+ | 3.1+ | 9+ |
 
 ## Changelog
-* Release 1.0.1 - August 13, 2017 - Added auto-updater.
-* Release 1.0 - August 13, 2017 - "Hello World!"
+* **Release 1.1 - August 24, 2017** - The script now support for csgo and dota2 items.
+* **Release 1.0.1 - August 13, 2017** - Added auto-updater.
+* **Release 1.0 - August 13, 2017** - "Hello World!"

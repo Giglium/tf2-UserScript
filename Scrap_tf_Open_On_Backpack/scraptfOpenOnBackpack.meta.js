@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Scrap.tf Open On Backpack
 // @namespace    https://github.com/Giglium/tf2-UserScript
-// @version      1.0.1
+// @version      1.1
 // @description  It generate a link on scrap.tf for open the item on backpack.tf
 // @author       Giglium
 // @include      /^https?:\/\/.*\.?scrap\.tf\/(auctions|weapons|hats|items|unusuals|skins|killstreaks|stranges|partswap|raffles).*/
