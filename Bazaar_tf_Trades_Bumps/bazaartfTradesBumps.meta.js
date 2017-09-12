@@ -10,7 +10,7 @@
 // @run-at       document-end
 // @grant        none
 // @license      MIT Licens
-// @updateURL
-// @downloadURL
+// @updateURL    https://raw.githubusercontent.com/Giglium/tf2-UserScript/master/Bazaar_tf_Trades_Bumps/bazaartfTradesBumps.meta.js
+// @downloadURL  https://github.com/Giglium/tf2-UserScript/blob/master/Bazaar_tf_Trades_Bumps/bazaartfTradesBumps.user.js
 // @supportURL  https://github.com/Giglium/tf2-UserScript/issues
 // ==/UserScript==
