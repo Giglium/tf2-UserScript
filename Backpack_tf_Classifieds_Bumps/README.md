@@ -1,19 +1,17 @@
-# Open on Backpack.tf
-It generate a link on [scrap.tf](https://scrap.tf/)  for open the item on [backpack.tf](https://backpack.tf/)
+# Classifieds Bumps
+Bump trades on backpack.tf. You can decide the time interval before two bumps simply changing this:
 
-Without script:
-
-![Screenshot of Scrap.tf items without script](img/screenshot_0.png?raw=true)
-
-While script is running:
-
-![Screenshot of Scrap.tf items while script is running ](img/screenshot_1.png?raw=true)
-
-You just have to click on the new icon to open the item on a new tab.
+```  
+/* SETTINGS */  
+  var maxRefreshTime = 60 * 60000,
+      minRefreshTime = 30 * 60000;
+/* END OF SETTINGS */
+```
+Time need to be in milliseconds. 60000 milliseconds = 1 minute so I suggest to multiply your time in minutes for 60000 like the code above.
 
 ## Instruction
 1. Ensure that you have a Script Manager installed.
-2. [Install](scraptfOpenOnBackpack.user.js?raw=true) from github.com.
+2. [Install](backpacktfClassifiedsBumps.user.js?raw=true) from github.com.
 3. Confirm that you want to install the script.
 4. The script should now be installed and ready to use.
 
@@ -25,6 +23,5 @@ You just have to click on the new icon to open the item on a new tab.
 
 Browser compatibility information is provided by [jscc.info](http://jscc.info/)
 ## Changelog
-* **Release 1.1 - August 24, 2017** - The script now support csgo and dota2 items.
-* **Release 1.0.1 - August 13, 2017** - Added auto-updater.
-* **Release 1.0 - August 13, 2017** - "Hello World!"
+* **Release 1.0.1 - September 12, 2017** - Added auto-updater.
+* **Release 1.0 - September 12, 2017** - "Hello World!"
