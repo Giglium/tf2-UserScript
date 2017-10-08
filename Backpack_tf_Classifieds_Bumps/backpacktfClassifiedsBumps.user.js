@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Backpack.tf Classifieds Bumps
 // @namespace    https://github.com/Giglium/tf2-UserScript
-// @version      1.0.1
+// @version      1.1
 // @description  Bump trades on backpack.tf
 // @author       Giglium
 // @match        https://backpack.tf/classifieds?steamid=*
@@ -41,33 +41,33 @@
 
         var nextPage =  document.getElementsByClassName( 'active' )[1].nextSibling,
             nextPageURL = $( 'a', nextPage ).attr( 'href' );
-        if( typeof nextPageURL != 'undefined' ){
+        if( typeof nextPageURL != 'undefined' )
             window.location.href = nextPageURL;
-        }
+        else
+            setTimeout(function(){ location.reload(); }, 5000);
+    }
+    else{
+        var length = window.location.href.indexOf( '&page' );
+        if( length !== -1 )
+            setTimeout(function(){ window.location.href =  window.location.href.substring( 0, length ); }, 5000);
         else{
-            location.reload();
+            var RefreshDate = new Date( new Date().getTime() + Math.round( Math.random() * ( maxRefreshTime - minRefreshTime ) + minRefreshTime ) );
+
+            var countdown = setInterval(function() {
+                var distance = RefreshDate - new Date(),
+                    hours = Math.floor( ( distance % ( 1000 * 60 * 60 * 24 ) ) / ( 1000 * 60 * 60 ) ),
+                    minutes = Math.floor( ( distance % ( 1000 * 60 * 60 ) ) / ( 1000 * 60 ) ),
+                    seconds = Math.floor( ( distance % ( 1000 * 60 ) ) / 1000 );
+
+                div.innerHTML = 'Next bumps: ' + hours + 'h ' + minutes + 'm ' + seconds + 's ';
+
+                if ( distance < 0 ) {
+                    clearInterval( countdown );
+                    div.innerHTML = 'Loading...';
+                    location.reload();
+                }
+            }, 1000);
         }
     }
-
-    var length = window.location.href.indexOf( '&page' );
-    if( length !== -1 )
-        window.location.href =  window.location.href.substring( 0, length );
-
-    var RefreshDate = new Date( new Date().getTime() + Math.round( Math.random() * ( maxRefreshTime - minRefreshTime ) + minRefreshTime ) );
-
-    var countdown = setInterval(function() {
-        var distance = RefreshDate - new Date(),
-            hours = Math.floor( ( distance % ( 1000 * 60 * 60 * 24 ) ) / ( 1000 * 60 * 60 ) ),
-            minutes = Math.floor( ( distance % ( 1000 * 60 * 60 ) ) / ( 1000 * 60 ) ),
-            seconds = Math.floor( ( distance % ( 1000 * 60 ) ) / 1000 );
-
-        div.innerHTML = 'Next bumps: ' + hours + 'h ' + minutes + 'm ' + seconds + 's ';
-
-        if ( distance < 0 ) {
-            clearInterval( countdown );
-            div.innerHTML = 'Loading...';
-            location.reload();
-        }
-}, 1000);
 
 })();

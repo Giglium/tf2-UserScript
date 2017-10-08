@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Backpack.tf Classifieds Bumps
 // @namespace    https://github.com/Giglium/tf2-UserScript
-// @version      1.0.1
+// @version      1.1
 // @description  Bump trades on backpack.tf
 // @author       Giglium
 // @match        https://backpack.tf/classifieds?steamid=*
