@@ -12,5 +12,5 @@
 // @license      MIT Licens
 // @updateURL    https://raw.githubusercontent.com/Giglium/tf2-UserScript/master/Backpack_tf_Classifieds_Bumps/backpacktfClassifiedsBumps.meta.js
 // @downloadURL  https://github.com/Giglium/tf2-UserScript/blob/master/Backpack_tf_Classifieds_Bumps/backpacktfClassifiedsBumps.user.js
-// @supportURL  https://github.com/Giglium/tf2-UserScript/issues
+// @supportURL   https://github.com/Giglium/tf2-UserScript/issues
 // ==/UserScript==
