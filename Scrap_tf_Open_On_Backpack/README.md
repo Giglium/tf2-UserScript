@@ -24,6 +24,11 @@ You just have to click on the new icon to open the item on a new tab.
 | 4+ | 9+ | 2+ | 3.1+ | 9+ |
 
 Browser compatibility information is provided by [jscc.info](http://jscc.info/)
+
+## Known bugs
+
+* **War Paint are not supported yet**
+
 ## Changelog
 * **Release 1.1 - August 24, 2017**     - The script now support csgo and dota2 items.
 * **Release 1.0.1 - August 13, 2017**   - Added auto-updater.
