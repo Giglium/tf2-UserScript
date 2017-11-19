@@ -23,6 +23,6 @@ Time need to be in milliseconds. 60000 milliseconds = 1 minute so I suggest to m
 
 Browser compatibility information is provided by [jscc.info](http://jscc.info/)
 ## Changelog
-* **Release 1.0.2 - October 09, 2017**    - Replaced target URL with a regular expression.
+* **Release 1.0.2 - October   09, 2017**  - Replaced target URL with a regular expression.
 * **Release 1.0.1 - September 12, 2017**  - Added auto-updater.
-* **Release 1.0 - September 12, 2017**    - "Hello World!"
+* **Release 1.0   - September 12, 2017**  - "Hello World!"

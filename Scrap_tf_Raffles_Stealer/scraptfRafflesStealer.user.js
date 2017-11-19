@@ -10,8 +10,8 @@
 // @run-at       document-idle
 // @grant        none
 // @license      MIT Licens
-// @updateURL
-// @downloadURL
+// @updateURL    https://github.com/Giglium/tf2-UserScript/raw/master/Scrap_tf_Raffles_Stealer/scraptfRafflesStealer.meta.js
+// @downloadURL  https://github.com/Giglium/tf2-UserScript/raw/master/Scrap_tf_Raffles_Stealer/scraptfRafflesStealer.user.js
 // @supportURL   https://github.com/Giglium/tf2-UserScript/issues
 // ==/UserScript==
 

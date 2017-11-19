@@ -30,6 +30,6 @@ Browser compatibility information is provided by [jscc.info](http://jscc.info/)
 * **War Paint are not supported yet**
 
 ## Changelog
-* **Release 1.1 - August 24, 2017**     - The script now support csgo and dota2 items.
-* **Release 1.0.1 - August 13, 2017**   - Added auto-updater.
-* **Release 1.0 - August 13, 2017**     - "Hello World!"
+* **Release 1.1   - August 24, 2017** - The script now support csgo and dota2 items.
+* **Release 1.0.1 - August 13, 2017** - Added auto-updater.
+* **Release 1.0   - August 13, 2017** - "Hello World!"

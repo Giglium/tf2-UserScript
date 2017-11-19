@@ -22,4 +22,5 @@ Browser compatibility information is provided by [jscc.info](http://jscc.info/)
 * **Script will die if it opens a ended raffle:** you have to go back on [raffles page](https://scrap.tf/raffles/V1NCZ5)
 
 ## Changelog
-* **Release 1.0 - August 13, 2017** - "Hello World!"
+* **Release 0.9.1 - November 19, 2017** - Added auto-updater.
+* **Release 0.9   - November 19, 2017** - "Hello World!"
