@@ -1,16 +1,24 @@
-# tf2-UserScript
+# TF 2 - UserScript
 
-This repository is a collection of useful trading tf2 scripts written by me.
+This repository is a collection of useful Team Fortress 2 trading scripts, written by me. 
+
+The supported Team Fortress 2 sites are:
+
+* [Scrap.tf](https://scrap.tf/).
 
 ## ⚠ IMPORTANT ⚠
-> Some of this script is disallowed because you might can get an unfair advantage. Use it wisely !
+
+This repository is under refactoring. All the old user script are under the `old` folder, this scripts might work, but I haven't tested it for a while.
+
+> Some of these scripts are disallowed because you might get an unfair advantage. Use it wisely!
 
 ## Script Manager
-* ![](https://raw.githubusercontent.com/reek/anti-adblock-killer/gh-pages/images/firefox.png) [Tampermonkey](https://addons.mozilla.org/it/firefox/addon/tampermonkey/) or [Greasemonkey](https://addons.mozilla.org/firefox/addon/greasemonkey/)
-* ![](https://raw.githubusercontent.com/reek/anti-adblock-killer/gh-pages/images/chrome.png) [Tampermonkey](https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo)
-* ![](https://raw.githubusercontent.com/reek/anti-adblock-killer/gh-pages/images/opera.png) [Tampermonkey](https://addons.opera.com/extensions/details/tampermonkey-beta/) or [Violentmonkey](https://addons.opera.com/extensions/details/violent-monkey/)
-* ![](https://raw.githubusercontent.com/reek/anti-adblock-killer/gh-pages/images/safari.png) [Tampermonkey](https://safari.tampermonkey.net/tampermonkey.safariextz) or [NinjaKit](https://github.com/os0x/NinjaKit)
-* ![](https://raw.githubusercontent.com/reek/anti-adblock-killer/gh-pages/images/msedge.png) [Tampermonkey](https://www.microsoft.com/store/p/tampermonkey/9nblggh5162s)
+* ![Firefox](https://raw.githubusercontent.com/reek/anti-adblock-killer/gh-pages/images/firefox.png) [Tampermonkey](https://addons.mozilla.org/it/firefox/addon/tampermonkey/) or [Greasemonkey](https://addons.mozilla.org/firefox/addon/greasemonkey/);
+* ![Chrome](https://raw.githubusercontent.com/reek/anti-adblock-killer/gh-pages/images/chrome.png) [Tampermonkey](https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo);
+* ![Opera](https://raw.githubusercontent.com/reek/anti-adblock-killer/gh-pages/images/opera.png) [Tampermonkey](https://addons.opera.com/en/extensions/details/tampermonkey-beta/);
+* ![Safari](https://raw.githubusercontent.com/reek/anti-adblock-killer/gh-pages/images/safari.png) [Tampermonkey](https://apps.apple.com/us/app/tampermonkey/id1482490089);
+* ![Edge](https://raw.githubusercontent.com/reek/anti-adblock-killer/gh-pages/images/msedge.png) [Tampermonkey](https://www.microsoft.com/store/p/tampermonkey/9nblggh5162s).
 
 ## License
-* [MIT License](https://opensource.org/licenses/MIT)
+
+All the user script under this repository are under [MIT License](https://opensource.org/licenses/MIT).
