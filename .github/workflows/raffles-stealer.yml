@@ -1,0 +1,24 @@
+name: raffles-stealer
+
+on: push
+
+defaults:
+  run:
+    working-directory: ./scrap-tf/raffles-stealer
+
+jobs:
+  npm-build:
+    name: Test npm build
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v2
+
+      - name: Install dependency
+        run: npm install
+        shell: bash
+
+      - name: Run build
+        run: npm run build
+        shell: bash
