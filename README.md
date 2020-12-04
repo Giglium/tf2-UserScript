@@ -1,5 +1,8 @@
 # TF 2 - UserScript
 
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/affb2e0cb1eb4d0b8ac46bec0d6097ba)](https://app.codacy.com/gh/Giglium/tf2-UserScript?utm_source=github.com&utm_medium=referral&utm_content=Giglium/tf2-UserScript&utm_campaign=Badge_Grade_Settings)
+
+
 This repository is a collection of useful Team Fortress 2 trading scripts, written by me. 
 
 The supported Team Fortress 2 sites are:
