@@ -64,7 +64,7 @@ function getNewRaffles() {
     }
 
     return Array.from(rafflePanel.querySelectorAll(selectors().PANEL_RAFFLE)).filter((raffle) => {
-        return !raffle.classList.contains(constants().ENTERED_RAFFLE)
+        return !raffle.classList.contains(constants().ENTERED_RAFFLE);
     });
 }
 
@@ -81,7 +81,7 @@ function checkRaffles(attempts) {
                 checkRaffles(--attempts);
             }, getRandomTime() * (1 - attempts));
         } else {
-            enterRaffle(raffles[0])
+            enterRaffle(raffles[0]);
         }
     } else {
         returnToRafflesPage();
